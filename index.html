@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumbuk Farm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-cDc0U2UbEaY3u+S3g7gY+bbPWFcC0Zot/3lME+6VQwRqGjZSMCZ18+VW1asBtTAk9RYQoxcN1FLGg8lM3rWjvw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="farm-logo.png" alt="Sumbuk Farm Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#abouts">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome To Sumbuk Farm</h1>
+            <p>Experience The Joy Of Farm Life</p>
+
+        </div>
+    </section>
+    <section id="about" class="about">
+        <p>Sumbuk is an organic goat farm ...</p>
+        <div class="features">
+            <div class="feature">
+                <img src="big-goat.jpg" alt="big-goat">
+                <h3>Mama Goat</h3>
+            </div>
+            <div class="feature">
+                <img src="layer-cage.jpg" alt="layer-cage">
+                <h3>Egg products</h3>
+            </div>
+            <div class="feature">
+                <img src="Water-trough.jpg" alt="Water-trough">
+                <h3>Water trough</h3>
+            </div>
+        </div>
+    </section>
+    <section id="experiences" class="experiences">
+        <h2>Our Experiences</h2>
+        <div class="experience">
+            <img src="little-goat.jpg" alt="little-goat">
+            <h3>little-goat</h3>
+            <p>Exotic Breed</p>
+        </div>
+        <div class="experience">
+            <img src="ear-tag.jpg" alt="ear-tag">
+            <h3>Ear Tag</h3>
+            <p>Ear tags are used on goats for easy identification, record-keeping, and compliance with regulatory requirements.</p>
+        </div>
+        <div class="experience">
+            <img src="farm.jpg" alt="Farm Visits">
+            <h3>Farm Visits</h3>
+            <p>Come visit our farm and meet the animals...</p>
+        </div>
+    </section>
+
+    <section id="abouts" class="abouts">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>At Sumbuk Farm, we pride ourselves on raising the best breed of organic goats. Our farm is dedicated to sustainable farming practices and providing high-quality, organic goat products. Nestled in the heart of nature, our goats roam freely
+                and are cared for with the utmost attention and love.</p>
+        </div>
+        <div class="about-image">
+            <img src="farm.jpg" alt="Our Organic Goat Farm">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Visit Us</h2>
+        <p>Open daily even during certain holidays...</p>
+        <p>Address: 123 Farm Lane, Countryside</p>
+        <div class="map">
+            <!-- Embed a Google Map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.26294402002!2d-74.01431880551612!3d40.70583161899224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259af18e244d3%3A0x8d72c7c2a927cfce!2s123%20Farm%20Lane%2C%20New%20York%2C%20NY%2010019%2C%20USA!5e0!3m2!1sen!2sus!4v1621346754343!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+
+    </section>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/yourprofile" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/yourprofile" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.twitter.com/yourprofile" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/yourprofile" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+
+
+        <p>&copy; 2024 Sumbuk Farm. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript for smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
