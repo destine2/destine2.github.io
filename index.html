@@ -4,87 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sumbuk Farm</title>
+    <title>CEOT Farm</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-cDc0U2UbEaY3u+S3g7gY+bbPWFcC0Zot/3lME+6VQwRqGjZSMCZ18+VW1asBtTAk9RYQoxcN1FLGg8lM3rWjvw==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 </head>
 
 <body>
 
-    <header>
+    <header data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
         <div class="logo">
             <img src="farm-logo.png" alt="Sumbuk Farm Logo">
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <!-- <li><a href="#home">Home</a></li> -->
                 <li><a href="#experiences">Experiences</a></li>
                 <li><a href="#abouts">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="home" class="hero">
+
+
+
+
+    <section data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="linear" data-aos-duration="3000" id="home" class="hero ">
         <div class="hero-content">
-            <h1>Welcome To Sumbuk Farm</h1>
+            <h1>WELCOME TO CEOT FARM</h1>
             <p>Experience The Joy Of Farm Life</p>
 
         </div>
     </section>
-    <section id="about" class="about">
-        <p>Sumbuk is an organic goat farm ...</p>
-        <div class="features">
-            <div class="feature">
-                <img src="big-goat.jpg" alt="big-goat">
-                <h3>Mama Goat</h3>
-            </div>
-            <div class="feature">
-                <img src="layer-cage.jpg" alt="layer-cage">
-                <h3>Egg products</h3>
-            </div>
-            <div class="feature">
-                <img src="Water-trough.jpg" alt="Water-trough">
-                <h3>Water trough</h3>
-            </div>
-        </div>
-    </section>
-    <section id="experiences" class="experiences">
+
+
+
+    <section data-aos="fade-up" data-aos-easing="linear" id="experiences" class="experiences ">
         <h2>Our Experiences</h2>
-        <div class="experience">
-            <img src="little-goat.jpg" alt="little-goat">
+        <div data-aos="fade-right" data-aos-duration="3000" data-aos-easing="linear" class="experience">
+            <img src="little-goat.jpg" alt="little-goat" loading="lazy">
             <h3>little-goat</h3>
             <p>Exotic Breed</p>
         </div>
-        <div class="experience">
-            <img src="ear-tag.jpg" alt="ear-tag">
+        <div data-aos="fade-up" data-aos-duration="3000" data-aos-easing="linear" class="experience">
+            <img src="ear-tag.jpg" alt="ear-tag" loading="lazy">
             <h3>Ear Tag</h3>
             <p>Ear tags are used on goats for easy identification, record-keeping, and compliance with regulatory requirements.</p>
         </div>
-        <div class="experience">
-            <img src="farm.jpg" alt="Farm Visits">
+        <div data-aos="fade-left" data-aos-duration="3000" data-aos-easing="linear" class="experience">
+            <img src="farm.jpg" alt="Farm Visits " loading="lazy">
             <h3>Farm Visits</h3>
             <p>Come visit our farm and meet the animals...</p>
         </div>
     </section>
 
-    <section id="abouts" class="abouts">
-        <div class="about-content">
-            <h2>About Us</h2>
-            <p>At Sumbuk Farm, we pride ourselves on raising the best breed of organic goats. Our farm is dedicated to sustainable farming practices and providing high-quality, organic goat products. Nestled in the heart of nature, our goats roam freely
-                and are cared for with the utmost attention and love.</p>
-        </div>
-        <div class="about-image">
-            <img src="farm.jpg" alt="Our Organic Goat Farm">
+    <section data-aos="fade-up" data-aos-duration="3000" id="about" data-aos-easing="linear" class="about ">
+        <p>CEOT is an organic goat farm ...</p>
+        <div class="features">
+            <div data-aos="zoom-in-right" data-aos-duration="3000" data-aos-easing="linear" class="feature">
+                <img src="big-goat.jpg" alt="big-goat" loading="lazy">
+                <h3>Mama Goat</h3>
+            </div>
+            <div data-aos="zoom-out-up" data-aos-duration="3000" data-aos-easing="linear" class="feature">
+                <img src="layer-cage.jpg" alt="layer-cage" loading="lazy">
+                <h3>Egg products</h3>
+            </div>
+            <div data-aos="zoom-out-down" data-aos-duration="3000" data-aos-easing="linear" class="feature">
+                <img src="Water-trough.jpg" alt="Water-trough" loading="lazy">
+                <h3>Water trough</h3>
+            </div>
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <h2>Visit Us</h2>
-        <p>Open daily even during certain holidays...</p>
-        <p>Address: 123 Farm Lane, Countryside</p>
-        <div class="map">
+
+    <section data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000" id="abouts" class="abouts">
+        <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="3000" class="about-content">
+            <h2>About Us</h2>
+            <p>At CEOT Farm, we pride ourselves on raising the best breed of organic goats. Our farm is dedicated to sustainable farming practices and providing high-quality, organic goat products. Nestled in the heart of nature, our goats roam freely and
+                are cared for with the utmost attention and love.</p>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="3000" data-aos-easing="linear" class="about-image">
+            <img src="farm.jpg" alt="Our Organic Goat Farm" loading="lazy">
+        </div>
+    </section>
+
+    <section data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" id="contact" class="contact">
+        <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="3000">
+            <h2>Visit Us </h2>
+        </div>
+        <div>
+            <p data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="3000">Open daily even during certain holidays...</p>
+        </div>
+        <div>
+            <p data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="3000">Address: 123 Farm Lane, Countryside</p>
+        </div>
+
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000" class="map">
             <!-- Embed a Google Map -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.26294402002!2d-74.01431880551612!3d40.70583161899224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259af18e244d3%3A0x8d72c7c2a927cfce!2s123%20Farm%20Lane%2C%20New%20York%2C%20NY%2010019%2C%20USA!5e0!3m2!1sen!2sus!4v1621346754343!5m2!1sen!2sus"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -103,7 +124,7 @@
             <a href="https://www.twitter.com/yourprofile" target="_blank">
                 <i class="fab fa-twitter"></i>
             </a>
-            <a href="https://www.youtube.com/yourprofile" target="_blank">
+            <a href="https://www.youtube.com/yourprofile" target="https://youtube.com/@ceotfarms?feature=shared">
                 <i class="fab fa-youtube"></i>
             </a>
         </div>
@@ -111,6 +132,15 @@
 
         <p>&copy; 2024 Sumbuk Farm. All rights reserved.</p>
     </footer>
+
+    <!-- animate on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
 
     <script>
         // JavaScript for smooth scrolling
@@ -124,7 +154,6 @@
             });
         });
     </script>
-
 </body>
 
 </html>
