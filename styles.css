@@ -1,6 +1,4 @@
-/* Global Styles */
-
-* {
+Global Styles * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -447,4 +445,35 @@ footer {
         font-size: 0.8em;
         margin: 2px;
     }
+}
+
+.slider {
+    width: 80%;
+    max-width: 800px;
+    /* Adjust the max-width as needed */
+    margin: 20px auto;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    /* Ensure images cover the container without stretching */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hero {
+    opacity: 0;
+    /* Start with invisible */
+    animation: fadeIn 1.5s forwards;
+    /* Fade in animation */
 }
