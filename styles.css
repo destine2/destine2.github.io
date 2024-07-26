@@ -500,6 +500,7 @@ h4 {
 .fourthSection>.fourthSectionImageDiv>img {
     border-radius: 20px;
     width: 100%;
+    height: 100%;
 }
 
 .fourthSection>.aboutDiv {
@@ -864,10 +865,10 @@ h4 {
     /* ~~~~~~~~~~~~~~~~~~~~~Second Section */
     .secondSection {
         flex-direction: column-reverse;
-        height: 100dvh;
+        height: 120dvh;
     }
     .secondSection>div:nth-child(1) {
-        margin-top: -10%;
+        
         flex-direction: row;
         height: 100%;
         overflow: hidden;
@@ -886,17 +887,18 @@ h4 {
     }
     /* ~~~~~~~~~~~~~~~~~~~~~~Third Section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     .thirdSection {
-        padding: 0;
+        /* padding: -20rem; */
+        justify-content: start;
         height: 160dvh;
+        margin-top: 0%;
     }
     .thirdSection>div:nth-child(1) {
         padding: 0;
-        margin-top: -30%;
-        margin-bottom: 5%;
+        
     }
     .thirdSection>.mainServiceDiv>.servicesDiv {
         padding: 0;
-        padding: 2rem 2rem 2rem 2rem;
+        padding: .9rem .9rem .9rem .9rem;
         width: 70%;
         height: fit-content;
         box-shadow: 0px 4px 5px #00000019;
@@ -904,6 +906,7 @@ h4 {
     }
     /* ~~~~~~~~~~~~~~ Fourth Section ~~~~~~~~~~~~~~~~~~~~~*/
     .fourthSection {
+      padding-top: 2rem;
         flex-direction: row;
     }
     .fourthSection>.fourthSectionImageDiv {
