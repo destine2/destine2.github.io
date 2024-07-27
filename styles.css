@@ -802,7 +802,7 @@ h4 {
         width: 100%;
         height: 2px;
     }
-    .smdNav>input[type="button"] {
+    .smdNav>a>input[type="button"] {
         padding: 11px;
         border-radius: 4px;
         background: white;
@@ -815,7 +815,7 @@ h4 {
         box-shadow: 0px 0px 10px #036406;
         transition: 300ms all;
     }
-    .smdNav>input[type="button"]:hover {
+    .smdNav>a>input[type="button"]:hover {
         padding: 11px;
         border-radius: 4px;
         color: white;
