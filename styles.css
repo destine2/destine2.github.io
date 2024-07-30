@@ -638,15 +638,33 @@ h4 {
 .footer {
     display: flex;
     align-items: center;
+    flex-direction:column ;
     justify-content: center;
-    flex-direction: column;
     width: 100dvw;
+    height: 10dvh;
+    padding-top: 10%;
+    padding-bottom: 10%;
     gap: 1rem;
     height: 25dvh;
-    background: #0e0e0e;
+    background: #b8b8b8;
 }
 
-.footer>div:nth-child(1) {
+.footer>div:nth-child(1)>h2 {
+    font-family: var(--normalFont);
+    font-size: 1.5rem;
+    color: black;
+    font-weight: lighter;
+}
+
+.footer>div:nth-child(1)>h2>span {
+    padding: .5rem .9rem .5rem .9rem;
+    background: #099409;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.footer>div:nth-child(2) {
     display: grid;
     place-items: center;
     gap: .9rem;
@@ -654,7 +672,7 @@ h4 {
     width: 100%;
 }
 
-.footer>div:nth-child(1)>div {
+.footer>div:nth-child(2)>div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -663,9 +681,9 @@ h4 {
     width: 100dvw;
 }
 
-.footer>div:nth-child(1)>a {
+.footer>div:nth-child(2)>a {
     font-size: 1rem;
-    color: white;
+    color: #53ff09;
     font-family: var(--normalFont);
     border-radius: 10px;
     text-decoration: none;
@@ -673,8 +691,8 @@ h4 {
     transition: 300ms all;
 }
 
-.footer>div:nth-child(1)>a:hover {
-    color: #49eb04e1;
+.footer>div:nth-child(2)>a:hover {
+    color: #113603;
 }
 
 .fa-whatsapp,
@@ -707,7 +725,14 @@ h4 {
 }
 
 .last {
-    color: rgb(106, 101, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6a6565;
+    background: black;
+    height: 10dvh;
+    text-align: center;
+    font-size: .7rem;
 }
 
 
@@ -857,15 +882,19 @@ h4 {
     }
     /* ~~~~~~~~~~~~~~~~~~~~~~Third Section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     .thirdSection {
-        /* padding: -20rem; */
+        flex-wrap: wrap;
         justify-content: start;
-        height: 160dvh;
+        height: 180dvh;
         margin-top: 0%;
     }
     .thirdSection>div:nth-child(1) {
         padding: 0;
-        
     }
+
+    /* .thirdSection > .mainServiceDiv {
+        display: flex;
+        flex-wrap: wrap;
+    } */
     .thirdSection>.mainServiceDiv>.servicesDiv {
         padding: 0;
         padding: .9rem .9rem .9rem .9rem;
@@ -876,7 +905,8 @@ h4 {
     }
     /* ~~~~~~~~~~~~~~ Fourth Section ~~~~~~~~~~~~~~~~~~~~~*/
     .fourthSection {
-      padding-top: 2rem;
+      padding-top: 20%;
+      padding-bottom: 20%;
         flex-direction: row;
     }
     .fourthSection>.fourthSectionImageDiv {
