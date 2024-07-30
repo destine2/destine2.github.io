@@ -913,7 +913,8 @@ h4 {
         display: none;
     }
     .fourthSection>.aboutDiv {
-        padding-top: 30%;
+        padding-top: 20%;
+        padding-bottom: 20%;
         width: 100%;
     }
     .fourthSection>.aboutDiv>.aboutSectionDiv>div {
