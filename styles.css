@@ -907,12 +907,13 @@ h4 {
     .fourthSection {
       padding-top: 30%;
       padding-bottom: 30%;
-        flex-direction: row;
+      flex-direction: row;
     }
     .fourthSection>.fourthSectionImageDiv {
         display: none;
     }
     .fourthSection>.aboutDiv {
+        padding-top: 30%;
         width: 100%;
     }
     .fourthSection>.aboutDiv>.aboutSectionDiv>div {
